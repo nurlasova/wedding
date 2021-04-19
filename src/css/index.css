@@ -206,7 +206,7 @@ a {
 .hero {
   background-image: url(../img/jpg/dress.jpg);
   width: 100%;
-  height: 100%;
+  height: 85vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -218,7 +218,7 @@ a {
   font-weight: normal;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  padding-top: 353px;
+  padding-top: 225px;
 }
 
 .hero__description {

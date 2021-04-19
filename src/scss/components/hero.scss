@@ -1,10 +1,10 @@
 .hero {
   background-image: url(../img/jpg/dress.jpg);
-  @include bg__img(100%, 100%, no-repeat, cover, center);
+  @include bg__img(100%, 85vh, no-repeat, cover, center);
   &__title {
     @include font($color-darkBlue, 48px, normal, $font-robo);
     text-align: center;
-    padding-top: 353px;
+    padding-top: 225px;
   }
   &__description {
      padding-top: 50px;
