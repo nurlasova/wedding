@@ -1,0 +1,50 @@
+body{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.section__title{
+    @include font($color-darkBlue, 32px, 600, $font-robo);
+    text-align: center;
+}
+.section__description{
+    @include font($color-darkBlue, 16px, normal, $font-robo);
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.section__button{
+    @include button($color-darkBlue, none, none, 2px);
+    @include font($color-white, 16px, 600, $font-robo);
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 17px 30px;
+    transition: 0.9s;
+    border: 1px solid transparent;
+    &:hover {
+      background-color: $color-white;
+      color: $color-darkBlue;
+      border: 1px solid $color-darkBlue;
+    }
+    // @include button($color-white, none, none, 2px);
+    // @include font($color-darkBlue, 16px, 600, $font-robo);
+    // text-align: center;
+    // letter-spacing: 0.5px;
+    // padding: 17px 30px;
+    // transition: 0.9s;
+    // &:hover {
+    //   background-color: $color-darkBlue;
+    //   color: $color-white;
+    // }
+}

@@ -1,0 +1,9 @@
+.stories__row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+
+.stories__row:nth-last-child() {
+  margin-right: -14px;
+}

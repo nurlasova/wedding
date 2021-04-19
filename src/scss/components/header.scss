@@ -1,0 +1,29 @@
+.header {
+  padding: 10px 5px;
+  .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__nav {
+    @include font($color-darkBlue, 12px, 600, $font-robo);
+    text-transform: uppercase;
+    &:hover{
+      border-bottom: 1px solid $color-darkBlue;
+    }
+    }
+    &__nav{
+      margin-right: 30px;
+   }
+&__navigation {
+    @include flex-center(center);
+  }
+  &__logo {
+    @include flex-center();
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  &__icon{
+    margin-right:  20px;
+  }
+ }

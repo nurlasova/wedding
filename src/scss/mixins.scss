@@ -1,0 +1,30 @@
+@mixin font($color, $size, $weight, $family){
+    color:$color;
+    font-size: $size;
+    font-weight: $weight;
+    font-family: $family;
+}
+@mixin hover($bg-color, $opac,$border, $color){
+    background-color: $bg-color;
+    opacity: $opac;
+    border:$border;
+    color:$color;
+}
+@mixin flex-center($acenter:center, $jcenter:center){
+    display: flex;
+    align-items: $acenter;
+    justify-content: $jcenter;
+}
+@mixin button($bg-color, $border, $outline, $border-radius){
+    background-color: $bg-color;
+    border: $border;
+    outline: $outline;
+    border-radius: $border-radius;
+}
+@mixin bg__img($width, $height, $background-repeat,$background-size,$background-position) {
+    width: $width;
+    height: $height;
+    background-repeat:$background-repeat;
+    background-size:$background-size;
+    background-position:$background-position;
+}

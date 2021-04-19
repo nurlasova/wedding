@@ -1,0 +1,27 @@
+.tread{
+  background-image: url(../img/jpg/full.jpg);
+  @include bg__img(100%, 100%, no-repeat, cover, center);
+    &__title {
+      letter-spacing: 0.5px;
+      padding: 460px 0 16px;
+      }
+    &__img {
+        @include flex-center();
+        margin: 0 auto;
+    
+      }
+      &__description{
+          width: 655px;
+          margin: 0 auto;
+          line-height: 24px;
+      }
+      &__button{
+        width: 385px;
+        margin: 25px 0 120px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    &__row{
+        @include flex-center();
+    }
+     }

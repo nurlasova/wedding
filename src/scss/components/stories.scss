@@ -1,0 +1,38 @@
+.stories {
+  padding-bottom: 142px;
+   &__title {
+    padding-top: 120px;
+    text-align: left;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+    &:nth-last-child(3) {
+      margin-right: -14px;
+    }
+  }
+   &__suptitle {
+    @include font($color-darkBlue, 22px, normal, $font-robo);
+    letter-spacing: 0.5px;
+    padding: 22px 0 10px 22px;
+    text-align: left;
+  }
+  &__description {
+    padding-left: 22px;
+    width: 350px;
+    text-align: left;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  &__img{
+    @include flex-center();
+    max-width: 65%;
+   transition: 0.5s;
+   margin-right: -14px;
+   &:hover{
+       transform: scale(1.1);
+   }
+}
+}

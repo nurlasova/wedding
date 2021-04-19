@@ -1,0 +1,25 @@
+.hero {
+  background-image: url(../img/jpg/dress.jpg);
+  @include bg__img(100%, 100%, no-repeat, cover, center);
+  &__title {
+    @include font($color-darkBlue, 48px, normal, $font-robo);
+    text-align: center;
+    padding-top: 353px;
+  }
+  &__description {
+     padding-top: 50px;
+
+  }
+  &__button{
+    width: 385px;
+     margin: 25px 0 120px;
+    text-transform: uppercase;
+
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+  }
+  
+}

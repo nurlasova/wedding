@@ -1,0 +1,22 @@
+.nature__title {
+  letter-spacing: 0.5px;
+  padding: 48px 0 16px;
+}
+
+.nature__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nature__button--men {
+  margin-right: 12px;
+}
+
+.nature__button--women {
+  margin-left: 12px;
+}
+
+.nature .row {
+  @i flex-center($acenter:center, $jcenter:center);
+}

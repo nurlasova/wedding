@@ -1,0 +1,27 @@
+.nature {
+  background-image: url(../img/jpg/beauty.jpg);
+  @include bg__img(100%, 100%, no-repeat, cover, center);
+
+  &__title {
+    letter-spacing: 0.5px;
+    padding: 460px 0 16px;
+  }
+  &__img {
+    @include flex-center();
+    margin: 0 auto;
+  }
+  &__button {
+    width: 350px;
+    margin: 26px 0 90px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+  .row {
+    @include flex-center();
+    margin: 30px 0 120px;
+  }
+  &__button--men,
+  &__button--women {
+    width: 180px;
+  }
+}

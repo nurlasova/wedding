@@ -1,0 +1,40 @@
+.arrival{
+    margin-bottom: 140px;
+  &__title {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  &__suptitle {
+    @include font($color-darkBlue, 22px, normal, $font-robo);
+    letter-spacing: 0.5px;
+    margin: 20px 0 6px;
+  }
+  &__description{
+    @include font($color-darkBlue, 16px, normal, $font-robo);
+  }
+  .swiper-container{
+   max-width: 100%;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    fill: $color-white;
+    width: 12%;
+    height: 15%;
+    transition: 0.5s;
+    &:hover {
+      fill: $color-darkBlue;
+      transform: scale(1.1);
+      border: none;
+    }
+  }
+  .swiper-button-prev {
+    left: -40px;
+  }
+  &__img{
+    max-width: 65%;
+   transition: 0.5s;
+   &:hover{
+       transform: scale(1.1);
+   }
+ }
+ }
