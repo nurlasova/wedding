@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./src/css/animate.css">
     <link rel="stylesheet" href="./src/css/index.css">
     <title>Princessa</title>
 </head>
@@ -49,15 +50,15 @@
         </section>
         <section class="favorite">
             <div class="container">
-                <h2 class="favorite__title section__title">Our Favorites</h2>
-                <ul class=" row favorite__menu">
+                <h2 class="favorite__title section__title wow fadeInDown" data-wow-duration="2s">Our Favorites</h2>
+                <ul class=" row favorite__menu wow fadeInDown" data-wow-duration="2s">
                     <li class="favorite__list">Wedding  </li>
                     <li class="favorite__list">Brides</li>
                     <li class="favorite__list">evening </li>
                 </ul>
                 <div class="favorite__line"></div>
                 <div class="row favorite__row">
-                    <div class="col-4 favorite__item">
+                    <div class="col-4 favorite__item wow fadeInLeft" data-wow-duration="3s">
                         <img src="./src/img/jpg/fav1.jpg" alt="shoes2" class="favorite__img">
                         <h3 class="favorite__suptitle">eva grandes</h3>
                         <div class="favorite__line1"></div>
@@ -67,7 +68,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 favorite__item">
+                    <div class="col-4 favorite__item wow fadeInDown" data-wow-duration="3s">
                         <img src="./src/img/jpg/fav2.jpg" alt="shoes2" class="favorite__img">
                         <h3 class="favorite__suptitle">essential</h3>
                         <div class="favorite__line1"></div>
@@ -76,7 +77,7 @@
                             <p class="favorite__description section__description">Light and Breezy Sneaker</p>
                         </div>
                     </div>
-                    <div class="col-4 favorite__item">
+                    <div class="col-4 favorite__item wow fadeInRight" data-wow-duration="3s">
                         <img src="./src/img/jpg/fav3.jpg" alt="shoes2" class="favorite__img">
                         <h3 class="favorite__suptitle">sellini</h3>
                         <div class="favorite__line1"></div>
@@ -94,7 +95,7 @@
             <h2 class="nature__title section__title">Ball Gown Wedding Dresses</h2>
            <p class="nature__description section__description">Merino Wool Dress In Limited Edition Hues</p>
            <div class="row nature__row">
-            <button class=" nature__button section__button">farletta</button>
+            <button class=" nature__button section__button wow zoomIn" data-wow-duration="2s">farletta</button>
         </div>
         </section>
         <section class="shop">
@@ -367,5 +368,9 @@
     </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./src/js/shop.js"></script>
+    <script src="./src/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
